@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/purple_200"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@color/white"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/search" />
+            <EditText
+                android:layout_marginLeft="11dp"
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="搜索你喜欢的内容"
+                android:textColorHint="#737373"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/slidingTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tl:tl_indicator_corner_radius="1.5dp"
+            tl:tl_indicator_height="3dp"
+            tl:tl_indicator_width="17dp"
+            tl:tl_textUnselectColor="@color/divider"
+            tl:tl_textSelectColor="#fdf299"
+            tl:tl_indicator_color="#fdf299"
+            tl:tl_textsize="16sp"/>
+
+    </LinearLayout>
+    <com.ttit.myapp.view.FixedViewPager
+        android:id="@+id/fixedViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

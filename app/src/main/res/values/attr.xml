@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lvBackground" format="color" />
+    <attr name="tvBackground" format="color" />
+    <attr name="menu_search" format="string"/>
+    <attr name="menu_delete_all" format="string"/>
+    <attr name="menu_delete" format="string"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="tvMainColor" format="color"/>
+    <attr name="tvSubColor" format="color"/>
+    <attr name="settingIcon" format="string"/>
+    <attr name="spinnerArrow" format="string"/>
+    <attr name="renewIcon" format="string"/>
+    <attr name="removeTag" format="string"/>
+    <attr name="addTag" format="string"/>
+    <attr name="addPlanTag" format="string"/>
+    <attr name="toolbarTheme" format="string"/>
+    <attr name="colorPrimary" format="color" />
+
+    <!-- Dark variant of the primary branding color. By default, this is the color applied to
+         the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+    <attr name="colorPrimaryDark" format="color" />
+
+    <!-- The secondary branding color for the app. -->
+    <attr name="colorSecondary" format="color" />
+
+    <!-- Bright complement to the primary branding color. By default, this is the color applied
+         to framework controls (via colorControlActivated). -->
+    <attr name="colorAccent" format="color" />
+
+    <!-- The color applied to framework controls in their normal state. -->
+    <attr name="colorControlNormal" format="color" />
+
+    <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+    <attr name="colorControlActivated" format="color" />
+
+    <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+    <attr name="colorControlHighlight" format="color" />
+
+    <!-- The color applied to framework buttons in their normal state. -->
+    <attr name="colorButtonNormal" format="color" />
+
+    <!-- The color applied to framework switch thumbs in their normal state. -->
+    <attr name="colorSwitchThumbNormal" format="color" />
+
+    <!-- The color applied to framework progress and seek bar backgrounds in their normal state. -->
+    <attr name="colorProgressBackgroundNormal" format="color" />
+
+    <!-- The color applied to the edge effect on scrolling containers. -->
+    <attr name="colorEdgeEffect" format="color" />
+
+    <!-- =================== -->
+    <!-- Lighting properties -->
+    <!-- =================== -->
+    <eat-comment />
+
+    <!-- @hide The default Y position of the light used to project view shadows. -->
+    <attr name="lightY" format="dimension" />
+
+    <!-- @hide The default Z position of the light used to project view shadows. -->
+    <attr name="lightZ" format="dimension" />
+
+    <!-- @hide The default radius of the light used to project view shadows. -->
+    <attr name="lightRadius" format="dimension" />
+
+    <!-- Alpha value of the ambient shadow projected by elevated views, between 0 and 1. -->
+    <attr name="ambientShadowAlpha" format="float" />
+
+    <!-- Alpha value of the spot shadow projected by elevated views, between 0 and 1. -->
+    <attr name="spotShadowAlpha" format="float" />
+</resources>

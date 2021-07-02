@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99CCCC"
+    tools:context=".alarm.PlanActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+        android:background="@color/purple_200"
+        android:id="@+id/editAlertToobar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="18dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="新建提醒"
+            android:textColor="@color/skin_text_white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <Button
+        android:id="@+id/button1"
+        android:background="@color/colorGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorBlack"
+        android:text="添加计划提醒" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

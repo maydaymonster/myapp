@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.EditActivity"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+        android:background="@color/purple_200"
+        android:id="@+id/editToobar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="18dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="编辑计划"
+                android:textColor="@color/skin_text_white"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="200dp"/>
+
+
+</LinearLayout>

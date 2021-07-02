@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ttit.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml
+10    <!-- 授予程序访问振动器的权限 -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:7:5-65
+12-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:8:5-80
+13-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+15-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:10:5-12:47
+15-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:11:9-68
+16    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 授予程序访问系统开机事件的权限 -->
+16-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:13:5-66
+16-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:13:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:14:5-81
+17-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:6:5-67
+18-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:6:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.github.dueeeke.dkplayer:dkplayer-java:3.2.6] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\35e8b709bc81809b0b85aff1834b3f19\jetified-dkplayer-java-3.2.6\AndroidManifest.xml:10:5-79
+19-->[com.github.dueeeke.dkplayer:dkplayer-java:3.2.6] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\35e8b709bc81809b0b85aff1834b3f19\jetified-dkplayer-java-3.2.6\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:5:3-73
+20-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:5:20-71
+21
+22    <application
+22-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:17:5-67:19
+23        android:name="com.ttit.myapp.schedule.app.app"
+23-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:18:9-41
+24        android:allowBackup="true"
+24-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:19:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\906974451befcef94e380e5f4b45a3f7\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:20:9-43
+28        android:label="@string/app_name"
+28-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:21:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:22:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:23:9-54
+31        android:supportsRtl="true"
+31-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:24:9-35
+32        android:theme="@style/Theme.AppCompat.NoActionBar" >
+32-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:25:9-59
+33        <activity android:name="com.ttit.myapp.alarm.AlarmAddActivity" />
+33-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:26:9-69
+33-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:26:19-57
+34        <activity android:name="com.ttit.myapp.alarm.PlanActivity" />
+34-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:27:9-56
+34-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:27:19-53
+35        <activity android:name="com.ttit.myapp.schedule.mvp.home.HomeActivity" />
+35-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:28:9-68
+35-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:28:19-65
+36        <activity android:name="com.ttit.myapp.schedule.mvp.mg.MgActivity" />
+36-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:29:9-64
+36-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:29:19-61
+37
+38        <service
+38-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:30:9-31:37
+39            android:name="com.ttit.myapp.alarm.NotifyService"
+39-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:30:18-53
+40            android:enabled="true" />
+40-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:31:13-35
+41
+42        <receiver
+42-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:33:9-34:50
+43            android:name="com.ttit.myapp.alarm.TimeReceiver"
+43-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:33:19-53
+44            android:process=":remote" />
+44-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:34:13-38
+45
+46        <activity
+46-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:35:9-37:57
+47            android:name="com.ttit.myapp.schedule.mvp.add.AddActivity"
+47-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:36:13-57
+48            android:windowSoftInputMode="stateHidden" />
+48-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:37:13-54
+49        <activity android:name="com.ttit.myapp.activity.GuideActivity" >
+49-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:38:9-44:20
+49-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:38:19-57
+50            <intent-filter>
+50-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:39:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:40:17-69
+51-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:40:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:42:17-77
+53-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:42:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.ttit.myapp.alarm.DialogActivity" >
+56-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:45:9-46:20
+56-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:45:19-55
+57        </activity>
+58        <activity android:name="com.ttit.myapp.activity.EditActivity" />
+58-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:47:9-59
+58-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:47:19-56
+59        <activity android:name="com.ttit.myapp.MainActivity" >
+59-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:48:9-57:20
+59-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:48:19-47
+60
+61            <!--
+62            <intent-filter>
+63                <action android:name="android.intent.action.MAIN" />
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+66            </intent-filter>
+67            -->
+68        </activity>
+69        <activity android:name="com.ttit.myapp.activity.LoginActivity" />
+69-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:58:9-60
+69-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:58:19-57
+70        <activity android:name="com.ttit.myapp.activity.RegisterActivity" />
+70-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:59:9-63
+70-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:59:19-60
+71        <activity
+71-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:60:9-62:62
+72            android:name="com.ttit.myapp.activity.HomeActivity"
+72-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:61:13-50
+73            android:configChanges="orientation|screenSize" />
+73-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:62:13-59
+74        <activity
+74-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:63:9-65:52
+75            android:name="com.ttit.myapp.activity.WebActivity"
+75-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:64:13-49
+76            android:screenOrientation="portrait" />
+76-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:65:13-49
+77        <activity android:name="com.ttit.myapp.activity.MyCollectActivity" />
+77-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:66:9-64
+77-->D:\Androidtest02\myapp\app\src\main\AndroidManifest.xml:66:19-61
+78        <activity
+78-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:7:5-12:16
+79            android:name="com.mob.guard.MobTranPullUpActivity"
+79-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:7:15-65
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+80-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:7:66-136
+81            <intent-filter>
+81-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:8:7-11:23
+82                <action android:name="com.mob.open.app_20000" />
+82-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:9:9-56
+82-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:9:17-54
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:10:9-67
+84-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:10:19-65
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:13:5-18:16
+88            android:name="com.mob.guard.MobTranPullLockActivity"
+88-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:13:15-67
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+89-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:13:68-138
+90            <intent-filter>
+90-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:14:7-17:23
+91                <action android:name="com.mob.open.app_lk" />
+91-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:15:9-53
+91-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:15:17-51
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:10:9-67
+93-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:10:19-65
+94            </intent-filter>
+95        </activity>
+96
+97        <service
+97-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:19:5-23:15
+98            android:name="com.mob.guard.MobGuardPullUpService"
+98-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:19:37-87
+99            android:enabled="true"
+99-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:19:14-36
+100            android:exported="true" >
+100-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:19:88-111
+101            <intent-filter>
+101-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:20:7-22:23
+102                <action android:name="com.mob.intent.MOB_GUARD_SERVICE" />
+102-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:21:9-66
+102-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:21:17-64
+103            </intent-filter>
+104        </service>
+105
+106        <meta-data
+106-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:24:5-72
+107            android:name="mob_guard_version"
+107-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:24:16-48
+108            android:value="20004" />
+108-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:24:49-70
+109
+110        <service
+110-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:25:5-29:15
+111            android:name="com.mob.MobACService"
+111-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:25:37-72
+112            android:enabled="true"
+112-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:25:14-36
+113            android:exported="true" >
+113-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:25:73-96
+114            <intent-filter>
+114-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:26:7-28:23
+115                <action android:name="com.mob.service.action.MOB_AC_SERVICE" />
+115-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:27:9-71
+115-->[com.mob:MobGuardMC:2021.0507.1621] C:\Users\顾文杰\.gradle\caches\transforms-2\files-2.1\c93766c163a3d6ef6f5612acef71355a\jetified-MobGuardMC-2021.0507.1621\AndroidManifest.xml:27:17-69
+116            </intent-filter>
+117        </service>
+118    </application>
+119
+120</manifest>
